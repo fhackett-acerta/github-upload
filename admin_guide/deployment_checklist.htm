@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2020.0.0"/>
+  <link rel="StyleSheet" href="../template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="../template/studio_lp/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="../template/studio_lp/userstyles.css" type="text/css"/>
+  
+    <link rel="shortcut icon" type="image/svg+xml" href="../acerta_favicon.svg"/>
+    
+  <script data-relpath=".." src="../template/scripts/csh-redirect.js" type="text/javascript"></script>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Deployment Checklist</title>
+  <meta name="topic-status" content="Draft"/>
+  <meta name="rh-authors" content="Fred Hackett"/>
+  <link rel="stylesheet" type="text/css" href="../assets/css/acerta_styles.css"/>
+<meta name="rh-version" content="2022.0.346"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <h2>Deployment Checklist</h2>
+  <table border="1" cellpadding="1" cellspacing="1" class="AlternateBlueWithHeader" style="border-collapse:collapse; width:100%">
+    <colgroup>
+      <col style="width: 55px;"/>
+      <col style="width: 266px;"/>
+      <col style="width: 119px;"/>
+      <col style="width: 588px;"/>
+    </colgroup>
+    <tbody>
+      <tr>
+        <td>Step</td>
+        <td style="">Description</td>
+        <td>Responsibility</td>
+        <td>Notes</td>
+      </tr>
+      <tr>
+        <td>
+          <p>1</p>
+        </td>
+        <td style="">
+          <p>Volume Mount location</p>
+        </td>
+        <td>
+          <p>Client</p>
+        </td>
+        <td>
+          <p>The volume mount location specifies where the LinePulse fileshare container will be deployed. It is typically located on the client network, but may also reside on the LinePulse tenant.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2</p>
+        </td>
+        <td style="">
+          <p>Fileshare Container Compose</p>
+        </td>
+        <td style="">
+          <p><img height="21" src="../assets/images/acerta_logo_normal_black_text_green_rings.png" width="51"/></p>
+        </td>
+        <td>
+          <p>Client-specific fileshare container creation and configuration.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>3</p>
+        </td>
+        <td style="">
+          <p>Fileshare Container Deploy</p>
+        </td>
+        <td style="height: 6px;">
+          <p><img height="21" src="../assets/images/acerta_logo_normal_black_text_green_rings.png" width="51"/></p>
+        </td>
+        <td>
+          <p>Pushing of client-specific container to volume mount location.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>4</p>
+        </td>
+        <td style="">
+          <p>Plant Configuration</p>
+        </td>
+        <td style="">
+          <p><img height="21" src="../assets/images/acerta_logo_normal_black_text_green_rings.png" width="51"/></p>
+        </td>
+        <td>
+          <p>Acerta Customer Success team setup of client plant within LinePulse.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="">
+          <p>5</p>
+        </td>
+        <td>
+          <p>Line Configuration</p>
+        </td>
+        <td style="">
+          <p><img height="21" src="../assets/images/acerta_logo_normal_black_text_green_rings.png" width="51"/></p>
+        </td>
+        <td>
+          <p>Acerta Customer Success team setup of client line within LinePulse.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="">
+          <p>6</p>
+        </td>
+        <td>
+          <p>File Generation Service</p>
+        </td>
+        <td style="">
+          <p>Client</p>
+        </td>
+        <td>
+          <p>Client configuration of source files for LinePulse ingestion.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="">
+          <p>7</p>
+        </td>
+        <td>
+          <p>IP Whitelist</p>
+        </td>
+        <td style="">
+          <p>Client</p>
+        </td>
+        <td>
+          <p>Client network configuration to ensure access to required LinePulse services. The IP list is provided by Acerta.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="">
+          <p>8</p>
+        </td>
+        <td>
+          <p>Intake and Ingestion Mapping</p>
+        </td>
+        <td style="">
+          <p>Client and<img height="21" src="../assets/images/acerta_logo_normal_black_text_green_rings.png" width="51"/></p>
+        </td>
+        <td>
+          <p>Client source file mapping within LinePulse. Performed by the client with support from the Acerta Customer Success team.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="">
+          <p>9</p>
+        </td>
+        <td>
+          <p>Scheduled Single Variate Drift (SVD)</p>
+        </td>
+        <td style="">
+          <p><img height="21" src="../assets/images/acerta_logo_normal_black_text_green_rings.png" width="51"/></p>
+        </td>
+        <td>
+          <p>‡ Configured by Acerta with client guidance.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="">
+          <p>10</p>
+        </td>
+        <td>
+          <p>Line Configuration</p>
+        </td>
+        <td style="">
+          <p><img height="21" src="../assets/images/acerta_logo_normal_black_text_green_rings.png" width="51"/></p>
+        </td>
+        <td>
+          <p>‡ Configured by Acerta with client guidance.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="">
+          <p>11</p>
+        </td>
+        <td>
+          <p>Scheduled Multivariate Drift (MVD)</p>
+        </td>
+        <td style="">
+          <p><img height="21" src="../assets/images/acerta_logo_normal_black_text_green_rings.png" width="51"/></p>
+        </td>
+        <td>
+          <p>‡ Configured by Acerta with client guidance.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div>
+    <p class="Normal_SingleSpace"> </p>
+    <p class="usr_msg_note"><img height="42" src="../assets/images/iconnote.png" style="padding-right: 15px;" width="42"/>Items marked with ‡ are currently performed by Acerta with client guidance, but user-configurable tools will be made available in the near-future.</p>
+    <p class="last_modified_date">Last modified: <span data-constant="TRUE" data-field="date" data-format="MMMM DD, YYYY">October 31, 2022</span></p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = ".."
+    gCommonRootRelPath = ".."
+    gTopicId = "2.0_1"
+  
+//]]></script>
+
+
+  <script src="../template/scripts/topicpage.js"></script>
+  <script src="../whxdata/layoutconfig.js"></script>
+  <script src="../whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+      
+          
+
+            
+              
+                  
+              
+                <link rel="StyleSheet" href="../template/studio_lp/font.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

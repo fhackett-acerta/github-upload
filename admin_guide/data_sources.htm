@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2020.0.0"/>
+  <link rel="StyleSheet" href="../template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="../template/studio_lp/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="../template/studio_lp/userstyles.css" type="text/css"/>
+  
+    <link rel="shortcut icon" type="image/svg+xml" href="../acerta_favicon.svg"/>
+    
+  <script data-relpath=".." src="../template/scripts/csh-redirect.js" type="text/javascript"></script>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Data Sources</title>
+  <meta name="topic-status" content="Draft"/>
+  <meta name="rh-authors" content="Fred Hackett"/>
+  <meta name="topic-comment" content="Admin Guide - Data Sources"/>
+  <link rel="stylesheet" type="text/css" href="../assets/css/acerta_styles.css"/>
+<meta name="rh-version" content="2022.0.346"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <h1>Data Sources</h1>
+  <h2>Configuring Data Sources: Intake Mapping</h2>
+  <p>You have control over what your organization considers a data source, with each data source representing a unique location from which LinePulse receives data. Multiple machines can be designated as a single data source. Likewise, multiple data creators can output data to a single LinePulse data source, or individual data sources can be configured for each data creator.</p>
+  <h3>To create a data source</h3>
+  <p class="ShowMe"></p>
+  <p class="TaskItem" style="counter-set: ptaskitem1 0;"><a href="../start_here/lp_quick_start.htm#To_view_a_different_plant" target="_blank">Select a plant</a>.</p>
+  <p class="TaskItem" style="">Open the <span class="Screen_Element_Emphasis">Data Sources</span> module.</p>
+  <p class="TaskItem" style="">Click <span class="Screen_Button">+ New Source</span>.</p>
+  <p class="TaskResult" style="">The <span class="Screen_Emphasis_Oblique">Add New Data Source</span> dialog box appears.</p>
+  <p class="TaskItem" style="">Enter a <span class="Screen_Element_Emphasis">Data Source Name</span>.</p>
+  <p class="usr_msg_note" style=""><img src="../assets/images/iconnote.png" style="padding-right: 10px;"/>The <span class="Screen_Emphasis_Oblique">Data Source Name</span> must match between the client-side configuration and Acerta data source configuration.</p>
+  <p class="usr_msg_tip" style=""><img src="../assets/images/icontip.png" style="padding-right: 15px; padding-left: 10px;"/>LinePulse adds the <span class="Screen_Emphasis_Oblique">Data Source Name</span> to the <span class="Screen_Emphasis_Oblique">Directory</span> field as you type. You can override this suggestion in the next step.</p>
+  <p class="TaskItem" style="">(<span class="Screen_Element_Emphasis">Optional</span>) Enter a <span class="Screen_Element_Emphasis">Directory</span>.</p>
+  <p class="TaskItem" style="">Click <span class="Screen_Button">ADD SOURCE</span>.</p>
+  <p class="TaskResult" style="">LinePulse adds the new data source to the <span class="Screen_Emphasis_Oblique">Data Sources </span>worklist.</p>
+  <p class="usr_msg_note" style=""><img src="../assets/images/iconnote.png" style="padding-right: 10px;"/>The new data source will be accessible from the <span class="Screen_Emphasis_Oblique">Plant Overview</span> module; however, you may have to refresh the screen before it will be visible.</p>
+  <h3><a id="b_open_intake_mapping_entry"></a>To open an intake mapping configuration entry</h3>
+  <p class="ShowMe"></p>
+  <p class="TaskItem" style="counter-set: ptaskitem1 0;"><a href="../start_here/lp_quick_start.htm#To_view_a_different_plant" target="_blank">Select a plant</a>.</p>
+  <p class="TaskItem" style="">Open the <span class="Screen_Element_Emphasis">Data Sources</span> module.</p>
+  <p class="TaskItem" style="">In the <span class="Screen_Element_Emphasis">Data Sources</span> worklist, click <span class="Screen_Button">INTAKE MAPPING</span> for the data source you wish to configure.</p>
+  <p class="TaskResult" style="">The <span class="Screen_Emphasis_Oblique">Intake Mapping</span> screen appears.</p>
+  <h3 style=""><a id="b_open_intake_mapping_file"></a>To open an intake mapping configuration file</h3>
+  <p class="usr_msg_note"><img src="../assets/images/iconnote.png" style="padding-right: 10px;"/>As part of the LinePulse pre-deployment activities, Acerta will help your organization determine your specific intake mapping schema, based on your sample intake mapping configuration file.</p>
+  <p class="ShowMe"></p>
+  <p class="TaskItem" style="counter-set: ptaskitem1 0;"><a href="#b_open_intake_mapping_entry" target="_self" title="Open an intake mapping configuration entry">Open an intake mapping configuration entry</a>.</p>
+  <p class="TaskItem" style="">Click <span class="Screen_Button">+ Choose File</span>.</p>
+  <p class="TaskResult" style="">A Windows File Upload dialog box appears.</p>
+  <p class="TaskItem" style="">Select an intake mapping configuration file.</p>
+  <p class="TaskItem" style="">Click <span class="Screen_Button">Open</span>.</p>
+  <p class="TaskResult" style="">LinePulse displays the selected intake mapping configuration file.</p>
+  <h3 style=""><a id="b_add_a_table"></a>To add an intake mapping table</h3>
+  <p class="ShowMe"></p>
+  <p class="TaskItem" style="counter-set: ptaskitem1 0;"><a href="#bookmark_open_intake_mapping_file" title="View task: Open an intake mapping configuration file">Open an intake mapping configuration file</a>.</p>
+  <p class="TaskItem" style="">Click <span class="Screen_Button">ADD TABLE</span>.</p>
+  <p class="TaskResult" style="">A blank intake mapping configuration entry appears.</p>
+  <p class="TaskResult" style="">There are now two fields to configure, which represent the header and data portions of the file. You can now specify where LinePulse should look for the intake mapping <a href="#b_configure_a_header">header</a> and <a href="#b_configure_data" target="_self" title="Configure intake mapping data">data</a> information.</p>
+  <h3 style=""><a id="b_configure_a_header"></a>To configure an intake mapping header</h3>
+  <p class="TaskItem" style="counter-set: ptaskitem1 0;">(<a href="#b_open_intake_mapping_file" target="_self" title="Open an intake mapping file">With an intake mapping table loaded</a>) Click the first empty box following the <span class="Screen_Element_Emphasis">Header:</span> label.</p>
+  <p class="TaskResult" style="">LinePulse adds a dotted box around the header start field.</p>
+  <p class="TaskItem" style="">Select the cell that marks the start of the header information.</p>
+  <p class="TaskResult" style="">LinePulse adds the cell location to the header start field.</p>
+  <p class="TaskItem" style="">Click the second empty box following <span class="Screen_Element_Emphasis">Header:</span> label.</p>
+  <p class="TaskResult" style="">LinePulse adds a dotted box around the header end field.</p>
+  <p class="TaskItem" style="">Select the cell that marks the end of the header information.</p>
+  <p class="usr_msg_tip" style=""><img src="../assets/images/icontip.png" style="padding-right: 15px; padding-left: 10px;"/>You may need to use the scrollbar to locate the terminating header cell.</p>
+  <p class="TaskResult" style="">LinePulse adds the cell location to the header end field.</p>
+  <p class="TaskResult" style="">Next, specify where LinePulse should look for intake mapping data.</p>
+  <h3 style=""><a id="b_configure_data"></a>To configure intake mapping data</h3>
+  <p class="TaskItem" style="counter-set: ptaskitem1 0;">(<a href="#b_add_a_table">With an intake mapping table loaded</a>) Click the first empty box following the <span class="Screen_Element_Emphasis">Data:</span> label.</p>
+  <p class="TaskResult" style="">LinePulse adds a dotted box around the data start field.</p>
+  <p class="TaskItem" style="">Select the cell that marks the start of the header information.</p>
+  <p class="TaskResult" style="">LinePulse adds the cell location to the data start field.</p>
+  <p class="TaskItem" style="">Click the second empty box following <span class="Screen_Element_Emphasis">Data:</span> label.</p>
+  <p class="TaskResult" style="">LinePulse adds a dotted box around the data end field. </p>
+  <p class="TaskItem" style="">Select the row that marks the end of the header information.</p>
+  <p class="usr_msg_tip" style=""><img src="../assets/images/icontip.png" style="padding-right: 15px; padding-left: 10px;"/>You may need to use the scrollbar to locate the terminating row.</p>
+  <p class="TaskResult" style="">LinePulse adds the cell location to the header end field.</p>
+  <h3 style="">To save an intake mapping entry</h3>
+  <p class="TaskItem" style="counter-set: ptaskitem1 0;">After you have made any required changes to an intake mapping entry, click <span class="Screen_Button">Save Mapping</span>.</p>
+  <p class="TaskResult" style="">A confirmation dialog box appears.</p>
+  <p class="TaskItem" style="">Click <span class="Screen_Button">OK</span>.</p>
+  <p class="TaskResult" style="">Your changes are saved.</p>
+  <h2>Configuring Data Sources: Insight Mapping</h2>
+  <p>Insight mapping is the process of classifying the data fields identified by the intake mapping process. LinePulse uses various groups to help the user quickly sort their data into the Acerta business schema, which is a universal format to organize manufacturing IoT data into a common format for use by LinePulse.</p>
+  <p>By selecting hierarchical data classifications, you will create a data structure that LinePulse uses to provide meaningful insights based on the type of data provided. The resultant classifications are used by various LinePulse modules—such as Anomaly Detection and Cap Metrics—to properly interpret and filter results.</p>
+  <p>LinePulse uses twelve base categories for insight mapping:</p>
+  <p><img src="../assets/images/insight_mapping_categories.png"/></p>
+  <h3>To configure insight mapping for a data source</h3>
+  <p class="ShowMe"></p>
+  <p class="usr_msg_note"><img src="../assets/images/iconnote.png" style="padding-right: 10px; cursor: nesw-resize;"/>You must first <a href="#b_open_intake_mapping_file" title="Configure intake mapping">configure intake mapping</a> for a data source before you can configure insight mapping.</p>
+  <p class="TaskItem" style="counter-set: ptaskitem1 0;"><a href="../start_here/lp_quick_start.htm#To_view_a_different_plant" target="_blank">Select a plant</a>.</p>
+  <p class="TaskItem" style="">Open the <span class="Screen_Element_Emphasis">Data Sources</span> module.</p>
+  <p class="TaskItem" style="">Click <span class="Screen_Button">INSIGHT</span> for the data source you wish to configure.</p>
+  <p class="TaskResult" style="">The <span class="Screen_Emphasis_Oblique">Insight Mapping</span> screen appears, displaying all of the entries <a href="#b_open_intake_mapping_file" target="_self" title="Configure intake mapping">previously configured via intake mapping</a> under the <span class="Screen_Emphasis_Oblique">Original Name</span> heading.</p>
+  <p class="usr_msg_note" style=""><img src="../assets/images/iconnote.png" style="padding-right: 10px;"/>Until you configure <span class="Screen_Emphasis_Oblique">Data Classification</span> in the next step, LinePulse assigns each entry a value of <span class="Screen_Emphasis_Oblique">&#39;</span><span class="Screen_Emphasis_Oblique">Not Set</span><span class="Screen_Emphasis_Oblique">&#39;</span>.</p>
+  <p class="TaskItem" style="">For each entry, click <span class="Screen_Button"><img src="../assets/images/btn_data_classification_select.png"/></span>.</p>
+  <p class="TaskResult" style="">A submenu appears.</p>
+  <p class="TaskItem" style="">Select a <span class="Screen_Element_Emphasis">Data Classification</span>.</p>
+  <p class="TaskResult" style="">LinePulse updates the <span class="Screen_Emphasis_Oblique">Data Classification</span> list to reflect your choice. As you continue to make selections, LinePulse automatically builds a signal by organizing the data into hierarchies.</p>
+  <p class="TaskItem" style="">Repeat the previous two steps, as required.</p>
+  <p class="usr_msg_tip" style=""><img src="../assets/images/icontip.png" style="padding-right: 15px; padding-left: 10px;"/>You can reorder entries by dragging and dropping them to a new location.</p>
+  <p class="TaskItem" style="">Once you are sure you have all entries assigned correctly, click <span class="Screen_Button">Save Configuration</span>.</p>
+  <p class="usr_msg_caution" style=""><img src="../assets/images/iconcaution.png" style="padding-right: 10px;"/>Make sure that all entries are configured correctly prior to saving—while an incorrectly mapped data source can be corrected, previously collected data will not be saved in the same format as data collected following the correction.</p>
+  <p class="usr_msg_tip"><img src="../assets/images/icontip.png" style="padding-right: 15px; padding-left: 10px;"/>If your insight mapping configuration was saved incorrectly, please contact the Acerta Customer Success team for assistance at +1 <span>(519) 979-8343</span>.</p>
+  <p class="TaskResult" style="">LinePulse displays a dialog box to confirm that your changes were saved correctly.</p>
+  <div>
+    <p class="last_modified_date">Last modified: <span data-constant="TRUE" data-field="date" data-format="MMMM DD, YYYY">October 29, 2022</span></p>
+  </div>
+  <p> </p>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = ".."
+    gCommonRootRelPath = ".."
+    gTopicId = "2.0_3"
+  
+//]]></script>
+
+
+  <script src="../template/scripts/topicpage.js"></script>
+  <script src="../whxdata/layoutconfig.js"></script>
+  <script src="../whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+      
+          
+
+            
+              
+                  
+              
+                <link rel="StyleSheet" href="../template/studio_lp/font.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

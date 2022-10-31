@@ -1,0 +1,95 @@
+/*Created with Adobe RoboHelp 8.*/
+.RH-LAYOUT-CENTERPANEL-topic-box <head><style>body, .RH-LAYOUT-FOOTER-container <head><style>body {
+  background-color: #f9f9b5;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box </style></head>body, .RH-LAYOUT-FOOTER-container </style></head>body {
+  font-family: Arial;
+  background-color: #f9f9b5;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box h1, .RH-LAYOUT-FOOTER-container h1 {
+  font-weight: bold;
+  x-next-class: ;
+  x-next-type: P;
+  font-size: 12pt;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box h2, .RH-LAYOUT-FOOTER-container h2 {
+  font-weight: bold;
+  font-size: 18.0pt;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box h3, .RH-LAYOUT-FOOTER-container h3 {
+  font-weight: bold;
+  font-size: 14.0pt;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box h4, .RH-LAYOUT-FOOTER-container h4 {
+  font-weight: bold;
+  font-size: 12.0pt;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box h5, .RH-LAYOUT-FOOTER-container h5 {
+  font-weight: bold;
+  font-size: 10.0pt;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box h6, .RH-LAYOUT-FOOTER-container h6 {
+  font-weight: bold;
+  font-size: 8.0pt;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box p, .RH-LAYOUT-FOOTER-container p {
+  font-family: "Arial Narrow";
+  font-size: 10pt;
+  color: #000000;
+  margin-top: 12pt;
+  margin-bottom: 12pt;
+  background-color: #f9f9b5;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box a.expandspot, .RH-LAYOUT-FOOTER-container a.expandspot {
+  color: #008000;
+  cursor: hand;
+  font-style: italic;
+  text-decoration: none;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box span.expandtext, .RH-LAYOUT-FOOTER-container span.expandtext {
+  font-style: italic;
+  font-weight: normal;
+  color: #ff0000;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box a.dropspot, .RH-LAYOUT-FOOTER-container a.dropspot {
+  cursor: hand;
+  color: #008000;
+  font-style: italic;
+  text-decoration: none;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box a.glossterm, .RH-LAYOUT-FOOTER-container a.glossterm {
+  color: #800000;
+  cursor: hand;
+  font-style: italic;
+  text-decoration: none;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box span.glosstext, .RH-LAYOUT-FOOTER-container span.glosstext {
+  font-style: italic;
+  font-weight: normal;
+  color: #0000ff;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box ol, .RH-LAYOUT-FOOTER-container ol,.RH-LAYOUT-CENTERPANEL-topic-box 
+ul, .RH-LAYOUT-FOOTER-container 
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box li.stacs_bullet, .RH-LAYOUT-FOOTER-container li.stacs_bullet {
+  font-family: "Arial Narrow";
+  font-size: 10pt;
+  list-style: url("Graphics/DNA_Bullet_Icon.gif");
+}
+.RH-LAYOUT-CENTERPANEL-topic-box p.close_dialog, .RH-LAYOUT-FOOTER-container p.close_dialog {
+  text-align: center;
+  color: #800000;
+  font-weight: bold;
+  margin-bottom: 0pt;
+  font-family: 'Arial Narrow';
+  background-color: #f9f9b5;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box p.Note, .RH-LAYOUT-FOOTER-container p.Note {
+  font-weight: bold;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box span.Bold, .RH-LAYOUT-FOOTER-container span.Bold {
+  font-weight: bold;
+}

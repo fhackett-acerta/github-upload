@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Start Here","type":"book","tilePath":"","key":"toc1"},{"name":"Admin Guide","type":"book","tilePath":"","key":"toc2"},{"name":"Using LinePulse","type":"book","tilePath":"","key":"toc3"},{"name":"Reference Guide","type":"book","tilePath":"","key":"toc4"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

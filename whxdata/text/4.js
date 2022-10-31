@@ -1,0 +1,1 @@
+rh._.exports({"0":[[" ","User Management"]],"2":[[" ","LinePulse user management is currently performed by Acerta. To add, modify or delete users, please contact your Acerta Customer Success representative for assistance at +1 ","(519) 979-8343","."," ","Last modified: ","July 14, 2022"]],"3":[[" ","User Management"]],"id":"4"})

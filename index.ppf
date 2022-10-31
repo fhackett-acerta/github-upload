@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ppfml version="2.00" project="Acerta LinePulse Documentation" type="4">
+  <contextmap>
+    
+  </contextmap>
+  <topiclist defaulttopic="start_here\welcome.htm">
+    
+    <topic>
+      start_here\welcome.htm
+    </topic>
+    
+    <topic>
+      start_here\using_help.htm
+    </topic>
+    
+    <topic>
+      start_here\lp_quick_start.htm
+    </topic>
+    
+    <topic>
+      admin_guide\deployment_checklist.htm
+    </topic>
+    
+    <topic>
+      admin_guide\user_management.htm
+    </topic>
+    
+    <topic>
+      admin_guide\data_sources.htm
+    </topic>
+    
+    <topic>
+      admin_guide\microsoft_teams_alerts.htm
+    </topic>
+    
+    <topic>
+      using_linepulse\welcome_to_linepulse.htm
+    </topic>
+    
+    <topic>
+      reference_guide\lp_commands.htm
+    </topic>
+    
+    <topic>
+      start_here\welcome.htm
+    </topic>
+    
+  </topiclist>
+  <filenamemap>
+    <filenameentry moniker="wh_languagetype">
+      <filename>
+        en_US
+      </filename>
+    </filenameentry>
+    <filenameentry moniker="wh_stoplist">
+      <filename>
+        whxdata/stopwords.xml
+      </filename>
+    </filenameentry>
+    <filenameentry moniker="startpage">
+      <filename>
+        index.htm
+      </filename>
+    </filenameentry>
+        
+    <filenameentry moniker="favicon">
+      <filename>
+        C:/Users/FredHackett/Documents/My RoboHelp Projects/LinePulse/contents/assets/images/Acerta_Favicon.svg
+      </filename>
+    </filenameentry>
+    
+  </filenamemap>
+</ppfml>

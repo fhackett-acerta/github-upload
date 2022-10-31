@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Welcome to LinePulse","type":"item","tilePath":"","description":"Landing page for the Using LinePulse section","url":"using_linepulse/welcome_to_linepulse.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
